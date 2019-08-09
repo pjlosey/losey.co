@@ -1,0 +1,40 @@
+{
+  "projectName": "websitev2",
+  "projectLinksType": "site",
+  "projectServerModel": "PHP",
+  "useRouting": true,
+  "addBase": true,
+  "routingHandler": "apache",
+  "styleFile": "/css/style.css",
+  "assetsFolder": "/assets",
+  "targets": [
+    {
+      "access": "ftp",
+      "name": "GreenGeeksLive",
+      "remoteURL": "http://losey.co",
+      "ftpServer": "fpt.losey.co",
+      "ftpUser": "losey",
+      "ftpPassword": "43eab3e8f793dca362",
+      "ftpRemoteFolder": "/www/"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "appConnect",
+      "type": "local"
+    },
+    {
+      "name": "jquery_slim_33",
+      "type": "local"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "local"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "local"
+    }
+  ],
+  "activeTarget": "GreenGeeksLive"
+}
